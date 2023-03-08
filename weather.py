@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-api_key = "2da9acc97954862652f3879a901d8842"
+api_key = "xxxxxxxxxxxxxxxxxxx"
 city="New York"
 
 # Create the API URL by combining the base URL, the city name, and the API key
