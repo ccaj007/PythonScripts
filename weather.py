@@ -1,7 +1,8 @@
+from INFO import API_KEYS
 import requests
 from bs4 import BeautifulSoup
 
-api_key = "xxxxxxxxxxxxxxxxxxx"
+api_key = API_KEYS.OPENWEATHERMAP_API
 city="New York"
 
 # Create the API URL by combining the base URL, the city name, and the API key
