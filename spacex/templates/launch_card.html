@@ -1,0 +1,17 @@
+{% macro render_launch(launch) %}
+<div class="launch-card">
+
+    {% if lanch.links.path.large %}
+    <img
+    src="{{launch.links.patch.large}}"
+    alt="{{launch.name}}"
+    class="launch-image"
+    />
+    {% endif %}
+    <div>
+        <div class=""launch-title">{{launch.name}}</div>
+    </div>
+    <p>Name: {{launch.name}}</p>
+    <p>Date: {{launch.date_utc}}</p>
+</div>
+{% endmacro %}
